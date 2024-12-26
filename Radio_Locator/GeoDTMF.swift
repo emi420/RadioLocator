@@ -16,7 +16,7 @@ public class GeoDTMF
         
         for i in 0..<chars.count {
             result.append(chars[i])
-            if i > 0 && chars[i] == chars[i - 1] {
+            if i < chars.count - 1 && chars[i] == chars[i + 1] {
                 result.append("B")
             }
         }
@@ -32,7 +32,9 @@ public class GeoDTMF
         let lonPrefix = longitude < 0 ? "1" : "0"
         
         let messageBody = "\(latPrefix)\(latInt)\(delimiter)\(lonPrefix)\(lonInt)"
-        return "*\(addBBetweenConsecutiveDuplicates(messageBody))#"
+        let encodedMsg = "*\(addBBetweenConsecutiveDuplicates(messageBody))#"
+
+        return encodedMsg
     }
     
 }

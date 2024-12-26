@@ -27,7 +27,7 @@ struct ContentView: View {
             Button(action: {
                 if let coordinates = locationManager.currentCoordinates {
                     let encodedMessage = geoDTMF.encodeDTMF(latitude: coordinates.latitude, longitude: coordinates.longitude)
-                    print("Encoded DTMF Message: \(encodedMessage)")
+
                     DTMFPlayer.playMessage(message: encodedMessage)
                 } else {
                     print("Coordinates not available")
