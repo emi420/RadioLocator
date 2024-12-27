@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Radio Locator
+//  Radio Map
 //
 //  Created by Emilio Mariscal on 25/12/2024.
 //
@@ -21,7 +21,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Radio Locator")
+            Text("Radio Map")
                 .font(.title)
             
             Button(action: {

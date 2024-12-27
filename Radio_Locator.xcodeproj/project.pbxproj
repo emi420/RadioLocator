@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC0AD1CA2D1CCC9A008AE66C /* DTMFPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0AD1C92D1CCC9A008AE66C /* DTMFPlayer.swift */; };
-		AC42C7A02CF3E86B00BF254F /* Radio_LocatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42C79F2CF3E86B00BF254F /* Radio_LocatorApp.swift */; };
+		AC42C7A02CF3E86B00BF254F /* Radio_MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42C79F2CF3E86B00BF254F /* Radio_MapApp.swift */; };
 		AC42C7A22CF3E86B00BF254F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42C7A12CF3E86B00BF254F /* ContentView.swift */; };
 		AC42C7A42CF3E86D00BF254F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC42C7A32CF3E86D00BF254F /* Assets.xcassets */; };
 		AC42C7A72CF3E86D00BF254F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC42C7A62CF3E86D00BF254F /* Preview Assets.xcassets */; };
@@ -19,8 +19,8 @@
 /* Begin PBXFileReference section */
 		AC0AD1C82D1CC9D8008AE66C /* location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = location.gpx; sourceTree = "<group>"; };
 		AC0AD1C92D1CCC9A008AE66C /* DTMFPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTMFPlayer.swift; sourceTree = "<group>"; };
-		AC42C79C2CF3E86B00BF254F /* Radio Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC42C79F2CF3E86B00BF254F /* Radio_LocatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_LocatorApp.swift; sourceTree = "<group>"; };
+		AC42C79C2CF3E86B00BF254F /* Radio Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC42C79F2CF3E86B00BF254F /* Radio_MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radio_MapApp.swift; sourceTree = "<group>"; };
 		AC42C7A12CF3E86B00BF254F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC42C7A32CF3E86D00BF254F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC42C7A62CF3E86D00BF254F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				AC0AD1C82D1CC9D8008AE66C /* location.gpx */,
-				AC42C79E2CF3E86B00BF254F /* Radio_Locator */,
+				AC42C79E2CF3E86B00BF254F /* Radio_Map */,
 				AC42C79D2CF3E86B00BF254F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,23 +51,23 @@
 		AC42C79D2CF3E86B00BF254F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC42C79C2CF3E86B00BF254F /* Radio Locator.app */,
+				AC42C79C2CF3E86B00BF254F /* Radio Map.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC42C79E2CF3E86B00BF254F /* Radio_Locator */ = {
+		AC42C79E2CF3E86B00BF254F /* Radio_Map */ = {
 			isa = PBXGroup;
 			children = (
 				AC9FE7192D1CF53D0009DC0E /* Location.swift */,
 				AC42C7A12CF3E86B00BF254F /* ContentView.swift */,
 				AC0AD1C92D1CCC9A008AE66C /* DTMFPlayer.swift */,
 				AC9FE7172D1CF2E90009DC0E /* GeoDTMF.swift */,
-				AC42C79F2CF3E86B00BF254F /* Radio_LocatorApp.swift */,
+				AC42C79F2CF3E86B00BF254F /* Radio_MapApp.swift */,
 				AC42C7A32CF3E86D00BF254F /* Assets.xcassets */,
 				AC42C7A52CF3E86D00BF254F /* Preview Content */,
 			);
-			path = Radio_Locator;
+			path = Radio_Map;
 			sourceTree = "<group>";
 		};
 		AC42C7A52CF3E86D00BF254F /* Preview Content */ = {
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC42C79B2CF3E86B00BF254F /* Radio Locator */ = {
+		AC42C79B2CF3E86B00BF254F /* Radio Map */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC42C7AA2CF3E86D00BF254F /* Build configuration list for PBXNativeTarget "Radio Locator" */;
+			buildConfigurationList = AC42C7AA2CF3E86D00BF254F /* Build configuration list for PBXNativeTarget "Radio Map" */;
 			buildPhases = (
 				AC42C7982CF3E86B00BF254F /* Sources */,
 				AC42C7992CF3E86B00BF254F /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "Radio Locator";
-			productName = "Radio Locator";
-			productReference = AC42C79C2CF3E86B00BF254F /* Radio Locator.app */;
+			name = "Radio Map";
+			productName = "Radio Map";
+			productReference = AC42C79C2CF3E86B00BF254F /* Radio Map.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC42C7972CF3E86B00BF254F /* Build configuration list for PBXProject "Radio_Locator" */;
+			buildConfigurationList = AC42C7972CF3E86B00BF254F /* Build configuration list for PBXProject "Radio_Map" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC42C79B2CF3E86B00BF254F /* Radio Locator */,
+				AC42C79B2CF3E86B00BF254F /* Radio Map */,
 			);
 		};
 /* End PBXProject section */
@@ -149,7 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC42C7A22CF3E86B00BF254F /* ContentView.swift in Sources */,
-				AC42C7A02CF3E86B00BF254F /* Radio_LocatorApp.swift in Sources */,
+				AC42C7A02CF3E86B00BF254F /* Radio_MapApp.swift in Sources */,
 				AC9FE71A2D1CF53F0009DC0E /* Location.swift in Sources */,
 				AC0AD1CA2D1CCC9A008AE66C /* DTMFPlayer.swift in Sources */,
 				AC9FE7182D1CF2E90009DC0E /* GeoDTMF.swift in Sources */,
@@ -285,7 +285,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Radio_Locator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Radio_Map/Preview Content\"";
 				DEVELOPMENT_TEAM = XRXUQJ4Q2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.hotosm.Radio-Locator";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hotosm.Radio-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,7 +319,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Radio_Locator/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Radio_Map/Preview Content\"";
 				DEVELOPMENT_TEAM = XRXUQJ4Q2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -338,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.hotosm.Radio-Locator";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hotosm.Radio-Map";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,7 +349,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC42C7972CF3E86B00BF254F /* Build configuration list for PBXProject "Radio_Locator" */ = {
+		AC42C7972CF3E86B00BF254F /* Build configuration list for PBXProject "Radio_Map" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC42C7A82CF3E86D00BF254F /* Debug */,
@@ -358,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC42C7AA2CF3E86D00BF254F /* Build configuration list for PBXNativeTarget "Radio Locator" */ = {
+		AC42C7AA2CF3E86D00BF254F /* Build configuration list for PBXNativeTarget "Radio Map" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC42C7AB2CF3E86D00BF254F /* Debug */,
